@@ -15,11 +15,25 @@ def open():
     m.sleep(100)
     m.display.set_pixel(0,2,9)
     m.sleep(100)
+    m.display.set_pixel(3,0,9)
+    m.sleep(100)
+    m.display.set_pixel(2,1,9)
+    m.sleep(100)
+    m.display.set_pixel(1,2,9)
+    m.sleep(100)
     m.display.set_pixel(0,3,9)
-
+    m.sleep(100)
+    m.display.set_pixel(4,0,9)
+    m.sleep(100)
+    m.display.set_pixel(3,1,9)
+    m.sleep(100)
+    m.display.set_pixel(2,2,9)
+    m.sleep(100)
+    m.display.set_pixel(1,3,9)
+    m.sleep(
     
 while True:
     if m.button_b.was_pressed():
        m.display.clear()
     elif m.button_a.was_pressed():
-        open()      
+        open()   
